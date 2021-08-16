@@ -1,0 +1,34 @@
+@import '../../style.scss';
+
+.comp-details-options {
+  display: flex;
+  align-self: center;
+  padding: 1rem;
+  border-bottom: 2px solid #eef0f4;
+
+  .comp-details-options__icon {
+    width: 4rem;
+
+    img {
+      width: 3rem;
+      object-fit: cover;
+    }
+  }
+
+  .comp-details-options__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .comp-details-options__text-title {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .comp-details-options__text-sub {
+      color: $color-subtext;
+      font-weight: bold;
+      font-size: 11px;
+    }
+  }
+}

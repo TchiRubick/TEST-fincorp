@@ -1,0 +1,36 @@
+@import '../../style.scss';
+
+.section-splitter-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-details {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40%;
+
+  .section-details__title {
+    font-weight: bold;
+    color: #2b7ffe;
+    margin: 1.5rem auto;
+    font-size: 1rem;
+  }
+
+  .section-details__intro {
+    font-weight: bold;
+    margin: 0 0 1.5rem;
+  }
+
+  .section-details__description {
+    color: $color-subtext;
+    font-weight: bold;
+    font-size: 11px;
+  }
+
+  .section-details__details {
+    margin: 1.5rem 0;
+  }
+}
