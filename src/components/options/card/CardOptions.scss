@@ -1,0 +1,36 @@
+@import '../../style.scss';
+
+.comp-card-options {
+  background-color: white;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  width: 18rem;
+  margin: 1rem;
+  text-align: center;
+
+  .comp-card-options__image {
+    margin: auto;
+    
+    img {
+      margin: auto;
+      border-radius: 50%;
+      object-fit: scale-down;
+      box-sizing: border-box;
+    }
+  }
+
+  .comp-card-options__title {
+    margin: 1rem auto;
+
+    .comp-card-options__title-text {
+      @include title;
+      font-size: 15px;
+    }
+  }
+
+  .comp-card-options__text {
+    margin: 1rem auto;
+
+    @include sub-text;
+  }
+}

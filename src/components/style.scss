@@ -13,6 +13,12 @@ $breakpoint-infinite: 10000px;
   font-size: 1.5rem;
 }
 
+@mixin sub-text {
+  color: $color-subtext;
+  font-weight: bold;
+  font-size: 11px;
+}
+
 @mixin breakpoint($min, $max) {
     @media only screen and (min-width: $min) and (max-width: $max) {
         @content;

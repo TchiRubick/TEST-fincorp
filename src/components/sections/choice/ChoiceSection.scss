@@ -1,0 +1,27 @@
+@import '../../style.scss';
+
+.section-choice {
+  padding: 1.5rem;
+
+  .section-choice__title { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .section-choice__main {
+      @include title;
+      margin: 1rem auto;
+    }
+
+    .section-choice__sub {
+      @include sub-text;
+      margin: 0 auto 1rem;
+    }
+  }
+
+  .section-choice__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
