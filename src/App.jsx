@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './App.scss';
 
-import KitTheme from './kit/KitTheme';
+import KitTheme from './components/kit/theme/KitTheme';
 import RouterWrapper from './utils/RouterWrapper';
 
 import LayoutMain from './components/layouts/main/LayoutMain';

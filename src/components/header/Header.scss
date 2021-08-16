@@ -1,0 +1,12 @@
+.comp-header {
+  display: flex;
+  
+  & > * {
+    margin-right: 1rem;
+  }
+
+  span {
+    align-self: center;
+    font-weight: bold;
+  }
+}

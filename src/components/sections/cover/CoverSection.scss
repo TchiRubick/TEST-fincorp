@@ -1,0 +1,41 @@
+@import '../../style.scss';
+
+.section-cover {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  justify-content: space-between;
+
+  .section-cover__greeting {
+    display: flex;
+    flex-direction: column;
+
+    .section-cover__greeting-subtitle {
+      font-weight: bold;
+      color: $color-subtext;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-cover__greeting-title {
+      @include title;
+    }
+  }
+
+  .section-cover__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .section-cover__title__main {
+      @include title;
+      margin-bottom: 1rem;
+    }
+
+    .section-cover__title__sub {
+      color: $color-subtext;
+      font-weight: bold;
+      font-size: 11px;
+    }
+  }
+}

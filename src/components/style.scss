@@ -1,10 +1,17 @@
-/* responsiveness */
+$color-button: linear-gradient(344deg, #f40f7c 0%, #eda384 100%);
+$color-subtext: #808080;
+
 $breakpoint-xs: 0;
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
-$breakpoint-lg: 996px;
+$breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 $breakpoint-infinite: 10000px;
+
+@mixin title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
 @mixin breakpoint($min, $max) {
     @media only screen and (min-width: $min) and (max-width: $max) {
@@ -16,7 +23,6 @@ $breakpoint-infinite: 10000px;
     @include breakpoint($breakpoint-xs, $breakpoint-sm) {
         @content;
     }
-    min-width: 216px;
 }
 
 @mixin tabletBreakpoint {

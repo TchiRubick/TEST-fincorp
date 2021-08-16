@@ -18,7 +18,7 @@ Move into the react container
 
 ## Available Scripts
 
-In the project directory, you can run:
+Inside the container, you can run:
 
 ### `npm start`
 
