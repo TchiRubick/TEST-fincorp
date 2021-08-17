@@ -6,6 +6,7 @@ import CoverSection from '../../components/sections/cover/CoverSection';
 import DetailsSection from '../../components/sections/details/DetailsSection';
 import ChoiceSection from '../../components/sections/choice/ChoiceSection';
 import ClaimSection from '../../components/sections/claim/ClaimSection';
+import QuoteSection from '../../components/sections/quote/QuoteSection';
 
 const Home = () => (
   <div className="page-home">
@@ -20,6 +21,9 @@ const Home = () => (
     </div>
     <div className="page-claim">
       <ClaimSection />
+    </div>
+    <div className="page-quote">
+      <QuoteSection />
     </div>
   </div>
 );
