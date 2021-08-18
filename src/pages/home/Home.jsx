@@ -11,6 +11,7 @@ import GuaranteeSection from '../../components/sections/guarantee/GuaranteeSecti
 import PricingSection from '../../components/sections/pricing/PricingSection';
 import FaqSection from '../../components/sections/faq/FaqSection';
 import GuaranteeSeconSection from '../../components/sections/guaranteeSecond/GuaranteeSeconSection';
+import FooterSection from '../../components/sections/footer/FooterSection';
 
 const Home = () => (
   <div className="page-home">
@@ -38,7 +39,7 @@ const Home = () => (
       <GuaranteeSeconSection />
     </div>
     <div className="page-footer">
-      footer
+      <FooterSection />
     </div>
   </div>
 );
