@@ -53,7 +53,7 @@ const choiceList = [
 
 const ChoiceSection = () => {
   const renderListCard = () => choiceList.map((c) => (
-    <CardOptions title={c.title} image={c.image} color={c.color}>
+    <CardOptions title={c.title} image={c.image} color={c.color} key={c.title}>
       {c.content}
     </CardOptions>
   ));

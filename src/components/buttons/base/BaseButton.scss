@@ -1,0 +1,12 @@
+@import '../../style.scss';
+
+.comp-button-base {
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+
+  &.__green {
+    background-color: $color-green;
+  }
+}
