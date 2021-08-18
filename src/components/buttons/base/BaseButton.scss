@@ -5,8 +5,15 @@
   border: none;
   padding: 0.8rem;
   border-radius: 0.4rem;
+  cursor: pointer;
 
   &.__green {
     background-color: $color-green;
+  }
+  &.__blue {
+    background-color: $color-blue;
+  }
+  &.__orange {
+    background-color: $color-orange;
   }
 }

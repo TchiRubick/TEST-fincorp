@@ -1,0 +1,119 @@
+@import '../../style.scss';
+
+.comp-card-price {
+
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+
+  .content-price-badge {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 0.5rem auto;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    font-size: 11px;
+    background-color: #fff4b4;
+
+    &.__green {
+      color: $color-green;
+    }
+
+    &.__blue {
+      color: $color-blue;
+    }
+
+    &.__orange {
+      color: $color-orange;
+    }
+  }
+
+  .content-price-sticker {
+    position: relative;
+    top: -1rem;
+    right: -86%;
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 4rem solid #fff4b4;
+    border-left: 4rem solid transparent;
+  }
+
+  .comp-card-price__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+
+    &.__green {
+     color: $color-green;
+    }
+
+    &.__blue {
+     color: $color-blue;
+    }
+
+    &.__orange {
+     color: $color-orange;
+    }
+  }
+
+  .comp-card-price__price {
+    border-radius: 50%;
+    object-fit: scale-down;
+    box-sizing: border-box;
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem auto;
+    font-size: 3rem;
+    padding-top: 1.7rem;
+    text-align: center;
+
+    .comp-card-price__price-unit {
+      font-size: 1.5rem;
+      vertical-align: top;
+    }
+
+    &.__green {
+      background-color: #beffdb;
+      color: #6dc9b3;
+    }
+
+    &.__blue {
+      background-color: #d7f4ff;
+      color: #77c0ee;
+    }
+
+    &.__orange {
+      background-color: #ffae8c;
+      color: white;
+    }
+  }
+
+  .comp-card-price__content {
+    margin: 1rem 1rem 2rem 3rem;
+    font-size: 13px;
+    line-height: 3rem;
+    font-weight: bold;
+    color: $color-subtext;
+
+    .content-price-card {
+
+      img {
+        width: 2rem;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .comp-card-price__button {
+    margin: auto;
+  }
+}

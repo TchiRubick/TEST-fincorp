@@ -8,6 +8,7 @@ import ChoiceSection from '../../components/sections/choice/ChoiceSection';
 import ClaimSection from '../../components/sections/claim/ClaimSection';
 import QuoteSection from '../../components/sections/quote/QuoteSection';
 import GuaranteeSection from '../../components/sections/guarantee/GuaranteeSection';
+import PricingSection from '../../components/sections/pricing/PricingSection';
 
 const Home = () => (
   <div className="page-home">
@@ -30,7 +31,7 @@ const Home = () => (
       <GuaranteeSection />
     </div>
     <div className="page-price">
-      <GuaranteeSection />
+      <PricingSection />
     </div>
   </div>
 );
