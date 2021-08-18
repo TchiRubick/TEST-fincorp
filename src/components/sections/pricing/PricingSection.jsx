@@ -53,7 +53,7 @@ const PricingSection = () => (
         <CardPrice {...{ ...pricePremium }} />
       </div>
       <div className="section-pricing__footer">
-        Footer pricing
+        *Prices shown per month if paid annually
       </div>
     </div>
   </Container>
