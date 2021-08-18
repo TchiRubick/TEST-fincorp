@@ -1,0 +1,36 @@
+@import '../../style.scss';
+
+.section-guarantee-second {
+  margin: 3rem auto 0;
+  
+  .section-guarantee-second__block {
+    background: white;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    width: 50rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .section-guarantee-second__block-text {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      
+      .section-guarantee-second__block-text__title {
+        @include title;
+      }
+
+      .section-guarantee-second__block-text__description {
+        @include sub-text;
+      }
+    }
+
+    .section-guarantee-second__block-text__button {
+      align-self: center;
+      height: 3rem;
+    }
+  }
+}

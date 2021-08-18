@@ -9,6 +9,8 @@ import ClaimSection from '../../components/sections/claim/ClaimSection';
 import QuoteSection from '../../components/sections/quote/QuoteSection';
 import GuaranteeSection from '../../components/sections/guarantee/GuaranteeSection';
 import PricingSection from '../../components/sections/pricing/PricingSection';
+import FaqSection from '../../components/sections/faq/FaqSection';
+import GuaranteeSeconSection from '../../components/sections/guaranteeSecond/GuaranteeSeconSection';
 
 const Home = () => (
   <div className="page-home">
@@ -32,6 +34,11 @@ const Home = () => (
     </div>
     <div className="page-price">
       <PricingSection />
+      <FaqSection />
+      <GuaranteeSeconSection />
+    </div>
+    <div className="page-footer">
+      footer
     </div>
   </div>
 );

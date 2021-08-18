@@ -29,7 +29,17 @@
     background-position-x: 35vh;
   }
   .page-price {
-    background-image: url('../../assets/img/composed-layer-3.png');
-    background-repeat: no-repeat;
+    background-image: url('../../assets/img/composed-layer-3.png'), url('../../assets/img/family-illustration-1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, 100% 110%;
+    background-size: auto, 35rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .page-footer {
+    background: #eff2f5;
   }
 }

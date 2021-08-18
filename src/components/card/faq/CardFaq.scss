@@ -1,0 +1,16 @@
+@import '../../style.scss';
+
+.comp-faq-card {
+
+  .comp-faq-card__title {
+    color: $color-blue;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .comp-faq-card__text {
+    color: $color-subtext;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
