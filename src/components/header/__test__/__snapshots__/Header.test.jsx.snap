@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-header"
+>
+  <img
+    alt="logo"
+    src="logo.png"
+  />
+  <span>
+    For You & Family
+  </span>
+  <span>
+    For Business
+  </span>
+</div>
+`;

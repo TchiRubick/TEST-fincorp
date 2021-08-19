@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-pricing"
+  >
+    <div
+      className="section-pricing__title"
+    >
+      <span
+        className="section-pricing__title-main"
+      >
+        Honest Pricing
+      </span>
+      <span
+        className="section-pricing__title-sub"
+      >
+        Simple & honest pricing. No hidden fees.
+      </span>
+    </div>
+    <div
+      className="section-pricing__block"
+    >
+      <div
+        className="comp-card-price __green"
+      >
+        <span
+          className="comp-card-price__title __green"
+        >
+          basic
+        </span>
+        <div
+          className="comp-card-price__price __green"
+        >
+          <span
+            className="comp-card-price__price-unit"
+          >
+            $
+          </span>
+          <span
+            className="comp-card-price__price-value"
+          >
+            9
+          </span>
+        </div>
+        <div
+          className="comp-card-price__content"
+        >
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Rapidiously strategize value
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Progressively visualize leadership
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Equity invested supply chains
+          </div>
+        </div>
+        <div
+          className="comp-card-price__button"
+        >
+          <button
+            className="comp-button-base __green"
+            type="button"
+          >
+            Choose plan
+          </button>
+        </div>
+      </div>
+      <div
+        className="comp-card-price __orange"
+      >
+        <div
+          className="content-price-sticker  __orange"
+        />
+        <span
+          className="comp-card-price__title __orange"
+        >
+          professional
+        </span>
+        <span
+          className="content-price-badge  __orange"
+        >
+          save 20 %
+        </span>
+        <div
+          className="comp-card-price__price __orange"
+        >
+          <span
+            className="comp-card-price__price-unit"
+          >
+            $
+          </span>
+          <span
+            className="comp-card-price__price-value"
+          >
+            19
+          </span>
+        </div>
+        <div
+          className="comp-card-price__content"
+        >
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Rapidiously strategize value
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Progressively visualize leadership
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Equity invested supply chains
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Proactively leverage
+          </div>
+        </div>
+        <div
+          className="comp-card-price__button"
+        >
+          <button
+            className="comp-button-base __orange"
+            type="button"
+          >
+            Choose plan
+          </button>
+        </div>
+      </div>
+      <div
+        className="comp-card-price __blue"
+      >
+        <span
+          className="comp-card-price__title __blue"
+        >
+          premium
+        </span>
+        <div
+          className="comp-card-price__price __blue"
+        >
+          <span
+            className="comp-card-price__price-unit"
+          >
+            $
+          </span>
+          <span
+            className="comp-card-price__price-value"
+          >
+            49
+          </span>
+        </div>
+        <div
+          className="comp-card-price__content"
+        >
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Rapidiously strategize value
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Progressively visualize leadership
+          </div>
+          <div
+            className="content-price-card"
+          >
+            <img
+              alt="tick"
+              src="tick.png"
+            />
+            Equity invested supply chains
+          </div>
+        </div>
+        <div
+          className="comp-card-price__button"
+        >
+          <button
+            className="comp-button-base __blue"
+            type="button"
+          >
+            Choose plan
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="section-pricing__footer"
+    >
+      *Prices shown per month if paid annually
+    </div>
+  </div>
+</div>
+`;

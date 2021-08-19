@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-card-options"
+>
+  <div
+    className="comp-card-options__image"
+  >
+    <img
+      alt="test_image"
+      src="logo.png"
+      style={
+        Object {
+          "backgroundColor": "green",
+          "height": "6rem",
+          "width": "6rem",
+        }
+      }
+    />
+  </div>
+  <div
+    className="comp-card-options__title"
+  >
+    <span
+      className="comp-card-options__title-text"
+    >
+      test
+    </span>
+  </div>
+  <div
+    className="comp-card-options__text"
+  >
+    test
+  </div>
+</div>
+`;

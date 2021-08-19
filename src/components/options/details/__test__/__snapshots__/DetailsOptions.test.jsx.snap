@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-details-options"
+>
+  <div
+    className="comp-details-options__icon"
+  >
+    <img
+      alt="tick"
+      className="comp-details-options__icon-img"
+      src="tick.png"
+    />
+  </div>
+  <div
+    className="comp-details-options__text"
+  >
+    <span
+      className="comp-details-options__text-title"
+    >
+      test
+    </span>
+    <span
+      className="comp-details-options__text-sub"
+    >
+      test
+    </span>
+  </div>
+</div>
+`;

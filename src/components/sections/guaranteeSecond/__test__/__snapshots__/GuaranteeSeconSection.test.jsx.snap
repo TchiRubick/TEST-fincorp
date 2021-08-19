@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-guarantee-second"
+  >
+    <div
+      className="section-guarantee-second__block"
+    >
+      <img
+        alt="shield"
+        src="shield-1.png"
+      />
+      <div
+        className="section-guarantee-second__block-text"
+      >
+        <span
+          className="section-guarantee-second__block-text__title"
+        >
+          Insurance made easy
+        </span>
+        <span
+          className="section-guarantee-second__block-text__description"
+        >
+          At fincorp, we are commited to provide top-notch services to our customers.
+        </span>
+      </div>
+      <div
+        className="section-guarantee-second__block-text__button"
+      >
+        <button
+          className="comp-button-base __green"
+          type="button"
+        >
+          Get your free Quote
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

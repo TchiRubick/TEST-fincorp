@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-choice"
+  >
+    <div
+      className="section-choice__title"
+    >
+      <span
+        className="section-choice__main"
+      >
+        Choose your Insurance
+      </span>
+      <span
+        className="section-choice__sub"
+      >
+        Keep Your Life Smile, Safe, and Wealthy
+      </span>
+    </div>
+    <div
+      className="section-choice__content"
+    >
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Home Insurance_image"
+            src="home-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#aff3ff",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Home Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Car Insurance_image"
+            src="car-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#fbd1ff",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Car Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Life Insurance_image"
+            src="life-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#daffd3",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Life Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Business Insurance_image"
+            src="business-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#fff5b3",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Business Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Travel Insurance_image"
+            src="travel-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#ffdad2",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Travel Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+      <div
+        className="comp-card-options"
+      >
+        <div
+          className="comp-card-options__image"
+        >
+          <img
+            alt="Other Insurance_image"
+            src="other-insurance-1.png"
+            style={
+              Object {
+                "backgroundColor": "#d2d3ff",
+                "height": "6rem",
+                "width": "6rem",
+              }
+            }
+          />
+        </div>
+        <div
+          className="comp-card-options__title"
+        >
+          <span
+            className="comp-card-options__title-text"
+          >
+            Other Insurance
+          </span>
+        </div>
+        <div
+          className="comp-card-options__text"
+        >
+          Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

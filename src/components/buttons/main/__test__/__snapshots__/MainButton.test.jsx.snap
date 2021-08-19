@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1`] = `
+<button
+  className="comp-button-main"
+  type="button"
+>
+  test
+</button>
+`;

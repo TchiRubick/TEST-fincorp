@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-card-price __green"
+>
+  <div
+    className="content-price-sticker  __green"
+  />
+  <span
+    className="comp-card-price__title __green"
+  >
+    test
+  </span>
+  <span
+    className="content-price-badge  __green"
+  >
+    save 10 %
+  </span>
+  <div
+    className="comp-card-price__price __green"
+  >
+    <span
+      className="comp-card-price__price-unit"
+    >
+      $
+    </span>
+    <span
+      className="comp-card-price__price-value"
+    >
+      1
+    </span>
+  </div>
+  <div
+    className="comp-card-price__content"
+  >
+    <div
+      className="content-price-card"
+    >
+      <img
+        alt="tick"
+        src="tick.png"
+      />
+      test content
+    </div>
+  </div>
+  <div
+    className="comp-card-price__button"
+  >
+    <button
+      className="comp-button-base __green"
+      type="button"
+    >
+      Choose plan
+    </button>
+  </div>
+</div>
+`;
+
+exports[`as expected snapshot 2 1`] = `
+<div
+  className="comp-card-price __green"
+>
+  <span
+    className="comp-card-price__title __green"
+  >
+    test
+  </span>
+  <div
+    className="comp-card-price__price __green"
+  >
+    <span
+      className="comp-card-price__price-unit"
+    >
+      $
+    </span>
+    <span
+      className="comp-card-price__price-value"
+    >
+      1
+    </span>
+  </div>
+  <div
+    className="comp-card-price__content"
+  >
+    <div
+      className="content-price-card"
+    >
+      <img
+        alt="tick"
+        src="tick.png"
+      />
+      test content
+    </div>
+  </div>
+  <div
+    className="comp-card-price__button"
+  >
+    <button
+      className="comp-button-base __green"
+      type="button"
+    >
+      Choose plan
+    </button>
+  </div>
+</div>
+`;

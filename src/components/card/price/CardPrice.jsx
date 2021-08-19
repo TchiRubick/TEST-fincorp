@@ -21,6 +21,7 @@ const CardPrice = (props) => {
       {c}
     </div>
   ));
+
   const renderOff = () => {
     if (!off) {
       return null;

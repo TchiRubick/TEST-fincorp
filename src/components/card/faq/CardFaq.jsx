@@ -11,7 +11,7 @@ const CardFaq = (props) => {
 
   const renderContents = () => contents.map((c) => (
     <Accordion key={c.title}>
-      <AccordionSummary expandIcon={<ExpandMoreIcon color="blue" />}>
+      <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <span className="comp-faq-card__title">{c.title}</span>
       </AccordionSummary>
       <AccordionDetails>

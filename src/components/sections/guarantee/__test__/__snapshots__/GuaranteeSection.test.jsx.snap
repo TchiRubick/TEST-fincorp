@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-guarantee"
+  >
+    <div
+      className="section-guarantee__block"
+    >
+      <img
+        alt="shield"
+        src="shield-2.png"
+      />
+      <div
+        className="section-guarantee__block-text"
+      >
+        <span
+          className="section-guarantee__block-text__title"
+        >
+          100% Satisfaction Guarantee
+        </span>
+        <span
+          className="section-guarantee__block-text__description"
+        >
+          We offer no questions asked refund policy for 14 days from the policy date.
+        </span>
+      </div>
+      <div
+        className="section-guarantee__block-text__button"
+      >
+        <button
+          className="comp-button-base __green"
+          type="button"
+        >
+          Get your free Quote
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-quote"
+  >
+    <div
+      className="section-quote__text"
+    >
+      <img
+        alt="quote"
+        src="quote.png"
+      />
+      <span
+        className="section-quote__text-content"
+      >
+        I need to understand what’s going on – it’s my health and I want to feel secure in it. With my previous health insurance, I didn’t know how any of it worked.
+      </span>
+      <span
+        className="section-quote__text-author"
+      >
+        Matthew Young
+      </span>
+      <span
+        className="section-quote__text-author-location"
+      >
+        Legal Consultant, United States
+      </span>
+    </div>
+  </div>
+</div>
+`;

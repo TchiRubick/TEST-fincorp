@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as expected snapshot 1 1`] = `
+<div
+  className="comp-container"
+>
+  <div
+    className="section-splitter-details"
+  >
+    <div />
+    <div
+      className="section-details"
+    >
+      <span
+        className="section-details__title"
+      >
+        Monotonectally deploy seamless data and resource maximizing systems.
+      </span>
+      <span
+        className="section-details__intro"
+      >
+        Great for individuals and small families up to 4 members.
+      </span>
+      <span
+        className="section-details__description"
+      >
+        A strong, up-to-date, employee benefits health insurance program is vital for attracting and retaining good employees. It takes diligence, creativity and attention to detail to ensure you are getting the best “bang for your buck” each and every year.
+      </span>
+      <div
+        className="section-details__details"
+      >
+        <div
+          className="comp-details-options"
+        >
+          <div
+            className="comp-details-options__icon"
+          >
+            <img
+              alt="tick"
+              className="comp-details-options__icon-img"
+              src="tick.png"
+            />
+          </div>
+          <div
+            className="comp-details-options__text"
+          >
+            <span
+              className="comp-details-options__text-title"
+            >
+              Comprehensive Insurance
+            </span>
+            <span
+              className="comp-details-options__text-sub"
+            >
+              Dynamically repurpose e-business users rather than granular products.
+            </span>
+          </div>
+        </div>
+        <div
+          className="comp-details-options"
+        >
+          <div
+            className="comp-details-options__icon"
+          >
+            <img
+              alt="tick"
+              className="comp-details-options__icon-img"
+              src="tick.png"
+            />
+          </div>
+          <div
+            className="comp-details-options__text"
+          >
+            <span
+              className="comp-details-options__text-title"
+            >
+              Support is just a call away
+            </span>
+            <span
+              className="comp-details-options__text-sub"
+            >
+              Rapidiously customize value-added platforms compliant action items.
+            </span>
+          </div>
+        </div>
+        <div
+          className="comp-details-options"
+        >
+          <div
+            className="comp-details-options__icon"
+          >
+            <img
+              alt="tick"
+              className="comp-details-options__icon-img"
+              src="tick.png"
+            />
+          </div>
+          <div
+            className="comp-details-options__text"
+          >
+            <span
+              className="comp-details-options__text-title"
+            >
+              Say goodbye to paperwork.
+            </span>
+            <span
+              className="comp-details-options__text-sub"
+            >
+              Globally deliver economically sound communities relationships. 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

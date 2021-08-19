@@ -51,14 +51,13 @@ const handleFetch = (url, content = {}, header = {}) => {
     'Content-Type': 'application/json',
     Accept: 'application/json',
     mode: '*cors',
-  },
+  };
 
   return fetch(url, {
     ...content,
-    headers : { ...headers, ...header},
+    headers: { ...headers, ...header },
   }).then((res) => handleResponse(res));
 };
-
 
 const handleResponse = (res) => res.json().then((json) => {
   if ((res.status >= 200 && res.status < 400)) {
